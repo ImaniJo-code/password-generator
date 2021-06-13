@@ -58,7 +58,7 @@ function generatePassword() {
 
 // make sure ok is selected for all and use empty mins
 
-if (numbers === true) {
+  if (numbers === true) {
     minimumNumbers = functionArray.getNumbers();
     minimumCount++;
 
@@ -81,3 +81,25 @@ if (numbers === true) {
     minimumCount++;
 
   }
+
+  // empty string variable for the for loop 
+  var randomPasswordGenerated = "";
+
+  // get random characters
+  for (let i = 0; i < (parseInt(passwordLength) - minimumCount); i++) {
+    var randomNumberPicked = Math.floor(Math.random() * 4);
+
+    randomPasswordGenerated += randomNumberPicked;
+
+  }
+
+  // add to the password
+  randomPasswordGenerated += minimumNumbers;
+  randomPasswordGenerated += minimumLowerCases;
+  randomPasswordGenerated += minimumUpperCases;
+  randomPasswordGenerated += minimumSpecialCharacters;
+
+
+  return randomPasswordGenerated;
+
+}
