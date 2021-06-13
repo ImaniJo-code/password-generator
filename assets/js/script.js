@@ -55,3 +55,29 @@ function generatePassword() {
     }
 
 };
+
+// make sure ok is selected for all and use empty mins
+
+if (numbers === true) {
+    minimumNumbers = functionArray.getNumbers();
+    minimumCount++;
+
+  }
+
+  if (lowerCases === true) {
+    minimumLowerCases = functionArray.getLowerCases();
+    minimumCount++;
+
+  }
+
+  if (upperCases === true) {
+    minimumUpperCases = functionArray.getUpperCases();
+    minimumCount++;
+
+  }
+
+  if (special === true) {
+    minimumSpecialCharacters = functionArray.getSpecialCharacters();
+    minimumCount++;
+
+  }
