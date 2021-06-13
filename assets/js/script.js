@@ -14,7 +14,7 @@ function writePassword() {
 
 // length prompt and confirm characters
 function generatePassword() {
-  var passwordLength = prompt("Please enter the number of characters you want for you new password.  It must be more than 12 but less than 128.");
+  var passwordLength = prompt("How many characters do want to include? ");
 
   var numbers = confirm("Do you want numbers in your password?");
 
