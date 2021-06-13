@@ -1,4 +1,4 @@
-# password-generator
+# Password Generator
 
 ## Purpose
 A website that offers generates a random password from users selections.
