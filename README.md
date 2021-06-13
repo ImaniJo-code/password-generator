@@ -1,7 +1,7 @@
 # Password Generator
 
 ## Purpose
-A website that offers generates a random password from users selections.
+A website that generates a random password from users selections.
 
 ## Built With
 * HTML
